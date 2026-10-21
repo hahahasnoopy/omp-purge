@@ -1,0 +1,46 @@
+{
+  "name": "omp-purge",
+  "version": "1.0.0",
+  "description": "OMP 指令权威性强化插件：before_agent_start 注入强指令 + prompt-inject.md + /purge 命令与模型工具（对标 dsh-purge，走官方扩展 API，不改 node_modules）。",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "omp",
+    "oh-my-pi",
+    "pi-extension",
+    "pi-package",
+    "purge",
+    "instructions",
+    "agents-md",
+    "system-prompt"
+  ],
+  "files": [
+    "src",
+    "bin",
+    "rules",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "bin": {
+    "omp-purge": "./bin/omp-purge.js"
+  },
+  "omp": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@oh-my-pi/pi-coding-agent": "*"
+  },
+  "peerDependenciesMeta": {
+    "@oh-my-pi/pi-coding-agent": {
+      "optional": true
+    }
+  }
+}
