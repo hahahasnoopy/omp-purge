@@ -4,6 +4,9 @@
 
 OMP（Oh My Pi）**指令权威性强化插件**——对标 [dsh-purge](https://github.com/ZiPengWei/dsh-purge)，走 **官方扩展 API**，**不改 `node_modules`**，`omp update` 后无需重清。
 
+> **免责声明 / Disclaimer**  
+> 本项目**仅供学习与研究**，用于了解 OMP 扩展机制与系统提示词注入方式。作者不对使用本软件造成的任何直接或间接损失负责；请遵守当地法律法规及所使用模型 / 平台的服务条款，勿用于违法或未授权用途。使用即表示你知悉并自行承担风险。
+
 ---
 
 ## 中文
@@ -129,6 +132,9 @@ MIT
 ## English
 
 Instruction-authority plugin for **OMP (Oh My Pi)** — same goal as [dsh-purge](https://github.com/ZiPengWei/dsh-purge), implemented the OMP-native way: **`before_agent_start` systemPrompt append**, not `node_modules` string patches.
+
+> **Disclaimer**  
+> This project is intended **for learning and research only** — to explore the OMP extension API and system-prompt injection. The authors are not liable for any damages arising from use. Comply with applicable laws and the terms of any models/platforms you use. Do not use for illegal or unauthorized purposes. Use at your own risk.
 
 ### Why not copy dsh-purge patches?
 
